@@ -7,13 +7,13 @@ import { AppProvider, createLogic } from './redux/logic';
 import { createStore } from './redux/store';
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+    document.getElementById('root') as HTMLElement
 );
 
 root.render(
-  <AppProvider store={createStore()} logic={createLogic()}>
-    <StrictMode>
-      <App />
-    </StrictMode>
-  </AppProvider>
+    <AppProvider store={createStore()} logic={createLogic()}>
+        <StrictMode>
+            <App />
+        </StrictMode>
+    </AppProvider>
 );

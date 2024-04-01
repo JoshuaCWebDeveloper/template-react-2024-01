@@ -1,3 +1,1 @@
-export class FeatureLogic {
-    
-}
+export class FeatureLogic {}

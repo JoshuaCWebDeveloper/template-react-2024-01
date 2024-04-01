@@ -15,9 +15,7 @@ export const featureApi = createApi({
                         .filter((feature, idx) => {
                             return (
                                 featureData.findIndex(
-                                    other =>
-                                        other.id ===
-                                        feature.id
+                                    other => other.id === feature.id
                                 ) === idx
                             );
                         })
