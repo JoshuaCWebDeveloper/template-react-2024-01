@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import NxWelcome from './nx-welcome';
+import NxWelcome from './components/nx-welcome';
 
 const StyledApp = styled.div`
     // Your style here
