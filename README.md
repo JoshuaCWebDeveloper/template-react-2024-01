@@ -7,6 +7,8 @@ npx create-nx-workspace react-2024-01
 cd react-2024-01/
 ```
 
+Create components director.
+
 Create redux directory structure
 
 ```bash
