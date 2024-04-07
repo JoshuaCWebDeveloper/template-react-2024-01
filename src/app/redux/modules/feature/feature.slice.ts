@@ -13,10 +13,10 @@ export const FEATURE_FEATURE_KEY = 'feature';
  * Update these interfaces according to your requirements.
  */
 export interface FeatureEntity {
-    id: number;
+    id: string;
 }
 
-export interface FeatureState extends EntityState<FeatureEntity> {
+export interface FeatureState extends EntityState<FeatureEntity, string> {
     loadingStatus: 'not loaded' | 'loading' | 'loaded' | 'error';
     error?: string | null;
 }
